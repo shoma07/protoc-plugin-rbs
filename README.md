@@ -1,20 +1,26 @@
-# Protoc::Plugin::Rbs
-
-TODO: Delete this and the text below, and describe your gem
-
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/protoc/plugin/rbs`. To experiment with that code, run `bin/console` for an interactive prompt.
+# Protoc Plugin RBS
 
 ## Installation
 
-TODO: Replace `UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG` with your gem name right after releasing it to RubyGems.org. Please do not do it earlier due to security reasons. Alternatively, replace this section with instructions to install your gem from git if you don't plan to release to RubyGems.org.
+Add this line to your application's Gemfile:
 
-Install the gem and add to the application's Gemfile by executing:
+```ruby
+gem 'protoc-plugin-rbs', git: 'https://github.com/shoma07/protoc-plugin-rbs.git'
+```
 
-    $ bundle add UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG
+And then execute:
 
-If bundler is not being used to manage dependencies, install the gem by executing:
+```sh
 
-    $ gem install UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG
+$ bundle install
+```
+
+Or install it yourself as:
+
+```sh
+$ gem install specific_install
+$ gem specific_install https://github.com/shoma07/protoc-plugin-rbs.git
+```
 
 ## Usage
 
@@ -36,4 +42,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the Protoc::Plugin::Rbs project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/protoc-plugin-rbs/blob/main/CODE_OF_CONDUCT.md).
+Everyone interacting in the ProtocPluginRbs project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/protoc-plugin-rbs/blob/main/CODE_OF_CONDUCT.md).
